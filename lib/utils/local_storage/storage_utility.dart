@@ -49,4 +49,3 @@ class TLocalStorage {
 //
 // // Clear all data
 // localStorage.clearAll();
-

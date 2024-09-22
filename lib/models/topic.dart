@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_lab/topics/keyboard_actions/keyboard_action_example_1.dart';
+import '../topics/keyboard_actions/keyboard_action_example_1.dart';
 
 import '../topics/sample/sample1.dart';
 import '../topics/sample/sample2.dart';
@@ -11,21 +11,18 @@ class Topic {
   final String? description;
   final Widget page;
 
-  static List<Topic> data = [
+  static List<Topic> data = <Topic>[
     Topic(
       title: 'Keyboard Actions',
-      page: KeyBoardActionsExample1(),
+      page: const KeyBoardActionsExample1(),
     ),
     Topic(
       title: 'Sample 1',
-      page: Sample1Screen(),
+      page: const Sample1Screen(),
     ),
     Topic(
       title: 'Sample 2',
-      page: Sample2Screen(),
+      page: const Sample2Screen(),
     ),
   ];
 }
-
-
-
