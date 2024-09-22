@@ -15,18 +15,6 @@ class _HomeScreenState extends State<HomeScreen> {
   bool _isSearching = false;
   final TextEditingController _searchController = TextEditingController();
 
-  // Hàm lọc các item dựa trên từ khóa
-  // List<Map<String, dynamic>> _filterItems(String query) {
-  //   return items
-  //       .where((item) => (item['title']
-  //                   .toLowerCase()
-  //                   .contains(query.toLowerCase()) ==
-  //               true ||
-  //           item['description'].toLowerCase().contains(query.toLowerCase()) ==
-  //               true))
-  //       .toList();
-  // }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

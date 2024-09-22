@@ -12,9 +12,9 @@ class _Sample2ScreenState extends State<Sample2Screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Sample 2'),
+        title: const Text('Sample 2'),
       ),
-      body: Center(
+      body: const Center(
         child: Text('Sample 2'),
       ),
     );
